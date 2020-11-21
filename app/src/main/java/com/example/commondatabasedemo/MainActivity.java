@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.litepal).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, LitePalActivity.class)));
         findViewById(R.id.greendao).setOnClickListener(v -> { startActivity(new Intent(MainActivity.this, GreenDaoActivity.class)); });
         findViewById(R.id.room).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, RoomActivity.class)));
+        findViewById(R.id.performance).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, PerformanceActivity.class)));
     }
 }

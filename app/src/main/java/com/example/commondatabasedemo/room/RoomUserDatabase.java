@@ -15,7 +15,7 @@ public abstract class RoomUserDatabase extends RoomDatabase {
 
     private static RoomUserDatabase INSTANCE;
 
-    static RoomUserDatabase getDatabase(Context context) {
+    public static RoomUserDatabase getDatabase(Context context) {
         if (INSTANCE == null) {
             synchronized (RoomUserDatabase.class) {
                 if (INSTANCE == null) {

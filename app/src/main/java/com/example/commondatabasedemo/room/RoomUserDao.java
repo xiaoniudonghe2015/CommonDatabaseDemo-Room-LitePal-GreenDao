@@ -6,6 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+import androidx.room.Transaction;
 import androidx.room.Update;
 
 import java.util.List;
@@ -16,6 +17,12 @@ public interface RoomUserDao {
     @Insert
     void insertUsers(RoomUser... users);
 
+    @Insert
+    void insertAllUsers(List<RoomUser> list);
+
+    @Transaction @Insert
+    void insertUsersTransaction(List<RoomUser> list);
+
     @Update
     void updateUsers(RoomUser... users);
 
@@ -24,6 +31,9 @@ public interface RoomUserDao {
 
     @Query("DELETE FROM ROOMUSER")
     void deleteAllUsers();
+
+    @Query("SELECT * FROM ROOMUSER")
+    List<RoomUser> findAllUSerInfo1();
 
     @Query("SELECT * FROM ROOMUSER ORDER BY ID DESC")
     LiveData<List<RoomUser>> findAllUSerInfo();

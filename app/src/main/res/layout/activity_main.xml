@@ -43,4 +43,12 @@
         android:textColor="#ffffff"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/performance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Performance"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
 </LinearLayout>

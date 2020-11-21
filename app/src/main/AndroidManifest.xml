@@ -21,6 +21,7 @@
         <activity android:name=".litepal.LitePalActivity" android:label="LitepalDatabaseDemo"/>
         <activity android:name=".greendao.GreenDaoActivity" android:label="GreenDaoDatabaseDemo"/>
         <activity android:name=".sqlite.SQLiteActivity" android:label="SQLiteatabaseDemo"/>
+        <activity android:name=".PerformanceActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

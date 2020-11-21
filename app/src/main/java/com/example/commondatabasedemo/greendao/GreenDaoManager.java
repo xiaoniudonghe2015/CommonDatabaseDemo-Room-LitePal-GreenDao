@@ -29,6 +29,10 @@ public class GreenDaoManager {
         daoSession = daoMaster.newSession();
     }
 
+    public DaoSession getDaoSession() {
+        return daoSession;
+    }
+
     public GreenDaoUserDao getGreenDaoUserDao() {
         return daoSession.getGreenDaoUserDao();
     }

@@ -1,34 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="fatal" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="313221b3-5fe0-451c-94af-fafc0d7217ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/CommonDatabaseDemo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CommonDatabaseDemo.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/commondatabasedemo/PerformanceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/commondatabasedemo/PerformanceActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58MA37MRFW]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -46,6 +72,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,10 +89,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_a505u-R58MA37MRFW" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.commondatabasedemo" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1605770798020" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1606102236697" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -139,30 +182,117 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add SQLite数据库.md GreenDao数据库.md" />
     <option name="LAST_COMMIT_MESSAGE" value="add SQLite数据库.md GreenDao数据库.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1785" height="408" key="GridCell.Tab.0.bottom" timestamp="1605771691382">
-      <screen x="-304" y="-1057" width="1920" height="1057" />
+    <state x="344" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605979681399">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="344" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1605979681399" />
+    <state x="310" y="-906" key="AndroidProcessChooserDialog" timestamp="1606107220837">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="310" y="-906" key="AndroidProcessChooserDialog/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107220837" />
+    <state x="409" y="140" key="AndroidProcessChooserDialog/0.23.1280.726@0.23.1280.726" timestamp="1605975147293" />
+    <state x="409" y="140" key="AndroidProcessChooserDialog/0.23.1280.727@0.23.1280.727" timestamp="1605973214182" />
+    <state x="-297" y="-1073" width="1906" height="1066" maximized="true" key="DiffContextDialog" timestamp="1606357379005">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-297" y="-1073" width="1906" height="1066" maximized="true" key="DiffContextDialog/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606357379005" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1606358229805">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606358229805" />
+    <state width="1238" height="292" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606036345374" />
     <state width="1785" height="408" key="GridCell.Tab.0.bottom/0.23.1280.723/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1605771691382" />
-    <state width="1785" height="408" key="GridCell.Tab.0.center" timestamp="1605771691381">
-      <screen x="-304" y="-1057" width="1920" height="1057" />
+    <state width="1238" height="304" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1605978677850" />
+    <state width="1238" height="304" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1605978627172" />
+    <state width="1238" height="244" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1605973245166" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1606358229803">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="391" key="GridCell.Tab.0.center/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606358229803" />
+    <state width="1238" height="292" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606036345372" />
     <state width="1785" height="408" key="GridCell.Tab.0.center/0.23.1280.723/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1605771691381" />
-    <state width="1785" height="408" key="GridCell.Tab.0.left" timestamp="1605771691380">
-      <screen x="-304" y="-1057" width="1920" height="1057" />
+    <state width="1238" height="304" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1605978677849" />
+    <state width="1238" height="304" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1605978627171" />
+    <state width="1238" height="244" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1605973245165" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1606358229802">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="391" key="GridCell.Tab.0.left/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606358229802" />
+    <state width="1238" height="292" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606036345371" />
     <state width="1785" height="408" key="GridCell.Tab.0.left/0.23.1280.723/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1605771691380" />
-    <state width="1785" height="408" key="GridCell.Tab.0.right" timestamp="1605771691381">
-      <screen x="-304" y="-1057" width="1920" height="1057" />
+    <state width="1238" height="304" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1605978677848" />
+    <state width="1238" height="304" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1605978627170" />
+    <state width="1238" height="244" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1605973245165" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1606358229804">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="391" key="GridCell.Tab.0.right/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606358229804" />
+    <state width="1238" height="292" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606036345373" />
     <state width="1785" height="408" key="GridCell.Tab.0.right/0.23.1280.723/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1605771691381" />
-    <state x="384" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1605771265980">
-      <screen x="-304" y="-1057" width="1920" height="1057" />
+    <state width="1238" height="304" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1605978677849" />
+    <state width="1238" height="304" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1605978627171" />
+    <state width="1238" height="244" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1605973245166" />
+    <state width="1878" height="273" key="GridCell.Tab.1.bottom" timestamp="1606107273381">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="273" key="GridCell.Tab.1.bottom/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107273381" />
+    <state width="1238" height="298" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1605975188770" />
+    <state width="1238" height="299" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1605973243526" />
+    <state width="1878" height="273" key="GridCell.Tab.1.center" timestamp="1606107273379">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.1.center/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107273379" />
+    <state width="1238" height="298" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1605975188769" />
+    <state width="1238" height="299" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1605973243525" />
+    <state width="1878" height="273" key="GridCell.Tab.1.left" timestamp="1606107273378">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.1.left/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107273378" />
+    <state width="1238" height="298" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1605975188768" />
+    <state width="1238" height="299" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1605973243524" />
+    <state width="1878" height="273" key="GridCell.Tab.1.right" timestamp="1606107273380">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.1.right/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107273380" />
+    <state width="1238" height="298" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1605975188769" />
+    <state width="1238" height="299" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1605973243526" />
+    <state x="386" y="-790" width="540" height="524" key="StructurePopup" timestamp="1606106525737">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="386" y="-790" width="540" height="524" key="StructurePopup/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606106525737" />
+    <state x="-204" y="-980" width="1720" height="880" key="VCS.FileHistoryDialog" timestamp="1606105166185">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-204" y="-980" width="1720" height="880" key="VCS.FileHistoryDialog/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606105166185" />
+    <state x="348" y="-780" width="886" height="490" key="find.popup" timestamp="1606104426552">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="348" y="-780" width="886" height="490" key="find.popup/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606104426552" />
+    <state x="385" y="-838" width="1005" height="693" key="search.everywhere.popup" timestamp="1606107289686">
+      <screen x="-304" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="385" y="-838" width="1005" height="693" key="search.everywhere.popup/0.0.1280.800/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606107289686" />
+    <state x="459" y="179" width="670" height="513" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606036378383" />
     <state x="384" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.723/-304.-1057.1920.1057@-304.-1057.1920.1057" timestamp="1605771265980" />
+    <state x="459" y="185" width="670" height="465" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1605977941397" />
+    <state x="459" y="185" width="670" height="465" key="search.everywhere.popup/0.23.1280.727@0.23.1280.727" timestamp="1605973275797" />
+    <state x="385" y="-838" width="1005" height="693" key="search.everywhere.popup/0.23.1280.777/-304.-1080.1920.1080@-304.-1080.1920.1080" timestamp="1606101295661" />
   </component>
 </project>

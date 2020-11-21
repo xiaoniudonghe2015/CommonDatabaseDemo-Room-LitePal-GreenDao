@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 public class SQLiteUserManager {
     static SQLiteUserManager sqLiteUserManager;
@@ -21,6 +22,12 @@ public class SQLiteUserManager {
         return sqLiteUserManager;
     }
 
+    public SQLiteDatabase getSqLiteDatabase() {
+        return sqLiteDatabase;
+    }
+
+    ;
+
 
     public SQLiteUserManager(Context context) {
         try {
@@ -36,7 +43,7 @@ public class SQLiteUserManager {
         try {
             raw = sqLiteDatabase.insert(table, nullColumnHack, values);
         } catch (Exception ex) {
-
+            Log.e("->SQLiteUserManager", "insert@39 --> " + ex);
         }
         return raw;
     }
