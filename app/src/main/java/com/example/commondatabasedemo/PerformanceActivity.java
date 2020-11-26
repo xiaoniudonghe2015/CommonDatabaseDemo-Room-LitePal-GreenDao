@@ -285,6 +285,27 @@ public class PerformanceActivity extends AppCompatActivity {
 //                        Log.e("->PerformanceActivity", "room end insert ");
                         });
                     } else {
+//                        AppExecutors executors = new AppExecutors();
+//                        executors.diskIO().execute(() -> {
+//                            Log.e("->PerformanceActivity", "room start insert ");
+//                            roomInsertStartTime = System.currentTimeMillis();
+//                            RoomUserDatabase roomUserDatabase = RoomUserDatabase.getDatabase(getApplicationContext());
+//                            RoomUserDao roomUserDao = roomUserDatabase.getRoomUserDao();
+//                            for (int i = 0; i < COUNT; i++) {
+//                                RoomUser roomUser = new RoomUser("ming" + i, "123456");
+//                                roomUserDao.insertUsers(roomUser);
+//                                roomInsertProgressBar.setProgress(i);
+//                                if (i == COUNT - 1) {
+//                                    executors.mainThread().execute(() -> {
+//                                        float interval = ((float) (System.currentTimeMillis() - roomInsertStartTime)) / 1000;
+//                                        roomInsertTime.setText("insert->" + interval + "");
+//                                        Log.e("->PerformanceActivity", "room insert total time --> " + interval);
+//                                    });
+//                                }
+//                            }
+////                        Log.e("->PerformanceActivity", "room end insert ");
+//                        });
+
                         AppExecutors executors = new AppExecutors();
                         executors.diskIO().execute(() -> {
                             Log.e("->PerformanceActivity", "room start insert ");
