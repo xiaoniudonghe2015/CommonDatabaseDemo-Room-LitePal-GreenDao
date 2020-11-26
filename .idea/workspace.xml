@@ -38,7 +38,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="313221b3-5fe0-451c-94af-fafc0d7217ce" name="Default Changelist" comment="" />
+    <list default="true" id="313221b3-5fe0-451c-94af-fafc0d7217ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开启事务后插入10000条数据速度对比-6362190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据库性能对比.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据库性能对比.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
